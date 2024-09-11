@@ -19,7 +19,6 @@ name = """
 """
 print(type(name))
 
-
 # 在字符串内 包含双引号
 name = '"黑马程序员"'
 print(name)
@@ -32,3 +31,16 @@ print(name)
 name = '\'黑马程序员\''
 print(name)
 
+# 本质查看数据类型 变量没有类型，变量存储的数据有类型
+name_type = type(name)
+print("1212",type(name_type))
+
+name_spell = name + str(name_type)
+print(name_spell)
+
+name = "\"name\'"
+print(name)
+num = 19
+name = "YY是你爹%s%s" % (name, num)
+print(name)
+print(type(name))

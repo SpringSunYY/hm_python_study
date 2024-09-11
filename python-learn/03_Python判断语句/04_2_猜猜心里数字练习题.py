@@ -14,5 +14,3 @@ elif int(input("猜错了，再猜一次：")) == num:
     print("恭喜，最后一次机会，你猜对了")
 else:
     print("Sorry 猜错了")
-
-

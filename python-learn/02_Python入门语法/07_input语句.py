@@ -13,3 +13,6 @@ print("你的银行卡密码的类型是：", type(num))
 
 name = """黑马程序员"""
 
+pi = 3.14159
+l = float(input('请输入半径：'))
+print(pi * l)
