@@ -15,6 +15,5 @@ for i in range(1, 101):
     print("小美我喜欢你")
 
 print(f"第{i}天，表白成功")
-
-
-
+print("小美，我永远爱你")
+print("够傻逼")

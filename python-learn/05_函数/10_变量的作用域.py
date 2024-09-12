@@ -41,7 +41,6 @@
 
 # global关键字，在函数内声明变量为全局变量
 num = 200
-
 def test_a():
     print(f"test_a: {num}")
 

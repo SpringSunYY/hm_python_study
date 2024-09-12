@@ -8,7 +8,9 @@ print(f"itheima在列表中的下标索引值是：{index}")
 # 1.2如果被查找的元素不存在，会报错
 # index = mylist.index("hello")
 # print(f"hello在列表中的下标索引值是：{index}")
-
+mylist = ["aaa"]
+for e in mylist:
+    print(e)
 # 2. 修改特定下标索引的值
 mylist[0] = "传智教育"
 print(f"列表被修改元素值后，结果是：{mylist}")
@@ -49,9 +51,4 @@ print(f"列表中itheima的数量是：{count}")
 mylist = ["itcast", "itheima", "itcast", "itheima", "python"]
 count = len(mylist)
 print(f"列表的元素数量总共有：{count}个")
-
-
-
-
-
-
+print(mylist[-1])

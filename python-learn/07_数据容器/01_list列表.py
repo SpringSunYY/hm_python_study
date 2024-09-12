@@ -10,9 +10,13 @@ print(type(my_list))
 my_list = ["itheima", 666, True]
 print(my_list)
 print(type(my_list))
+for my in my_list:
+    print(my)
+    print(type(my))
 
 # 定义一个嵌套的列表
 my_list = [ [1, 2, 3], [4, 5, 6]]
+
 print(my_list)
 print(type(my_list))
 
