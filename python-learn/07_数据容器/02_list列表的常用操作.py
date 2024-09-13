@@ -52,3 +52,12 @@ mylist = ["itcast", "itheima", "itcast", "itheima", "python"]
 count = len(mylist)
 print(f"列表的元素数量总共有：{count}个")
 print(mylist[-1])
+print("------------------------")
+index = 0
+while index < len(mylist):
+    element = mylist[index]
+    index += 1
+    print(element)
+print("------------------------")
+for element in mylist:
+    print(element)

@@ -38,3 +38,5 @@ print(f"字符串{my_str}中it出现的次数是：{count}")
 # 统计字符串的长度, len()
 num = len(my_str)
 print(f"字符串{my_str}的长度是：{num}")
+my_str+="YY"
+print(my_str)
