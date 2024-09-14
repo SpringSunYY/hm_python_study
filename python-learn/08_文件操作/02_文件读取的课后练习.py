@@ -3,7 +3,7 @@
 """
 
 # 打开文件，以读取模式打开
-f = open("D:/word.txt", "r", encoding="UTF-8")
+f = open("E:\Python\Code\Study\HM_Study\python-learn\data\疫情.txt", "r", encoding="UTF-8")
 # 方式1：读取全部内容，通过字符串count方法统计itheima单词数量
 # content = f.read()
 # count = content.count("itheima")
@@ -14,9 +14,9 @@ for line in f:
     line = line.strip()     # 去除开头和结尾的空格以及换行符
     words = line.split(" ")
     for word in words:
-        if word == "itheima":
+        if word == "confirmCuts":
             count += 1      # 如果单词是itheima，进行数量的累加加1
 # 判断单词出现次数并累计
-print(f"itheima出现的次数是：{count}")
+print(f"confirmCuts出现的次数是：{count}")
 # 关闭文件
 f.close()

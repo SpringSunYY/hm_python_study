@@ -5,10 +5,10 @@
 # 打开文件
 import time
 
-f = open("D:/测试.txt", "r", encoding="UTF-8")
+f = open("E:\Python\Code\Study\HM_Study\python-learn\data\疫情.txt", "r", encoding="UTF-8")
 print(type(f))
 # 读取文件 - read()
-# print(f"读取10个字节的结果：{f.read(10)}")
+print(f"读取10个字节的结果：{f.read(10)}")
 # print(f"read方法读取全部内容的结果是：{f.read()}")
 print("-----------------------------------------------")
 # 读取文件 - readLines()
@@ -30,8 +30,8 @@ print("-----------------------------------------------")
 # # 文件的关闭
 # f.close()
 # time.sleep(500000)
-# with open 语法操作文件
-with open("D:/测试.txt", "r", encoding="UTF-8") as f:
+# with open 语法操作文件 这样文件会自动关闭
+with open("E:\Python\Code\Study\HM_Study\python-learn\data\疫情.txt", "r", encoding="UTF-8") as f:
     for line in f:
         print(f"每一行数据是：{line}")
 
