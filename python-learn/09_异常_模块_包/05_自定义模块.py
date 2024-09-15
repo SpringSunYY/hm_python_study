@@ -15,7 +15,10 @@
 # from my_module1 import test
 
 # __all__变量
-from my_module1 import *
-test_a(1, 2)
+# from my_module1 import *
+# test_a(1, 2)
 # test_b(2, 1)
 
+if __name__ == '__main__':
+    print('我是主程序')
+    print("I am the main program")

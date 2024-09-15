@@ -3,4 +3,7 @@
 """
 
 # 通过open，读取一个不存在的文件
-f = open("D:/abc.txt", "r", encoding="UTF-8")
+try:
+    f = open("D:/abc.txt", "r", encoding="UTF-8")
+except Exception as e:
+    print(f"出错了:{e}")

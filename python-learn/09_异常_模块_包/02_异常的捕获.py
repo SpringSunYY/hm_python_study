@@ -10,12 +10,12 @@
 #     f = open("D:/abc.txt", "w", encoding="UTF-8")
 
 # 捕获指定的异常
-# try:
-#     print(name)
-#     # 1 / 0
-# except NameError as e:
-#     print("出现了变量未定义的异常")
-#     print(e)
+try:
+    print(name)
+    # 1 / 0
+except NameError as e:
+    print("出现了变量未定义的异常")
+    print(e)
 # 捕获多个异常
 # try:
 #     # 1 / 0

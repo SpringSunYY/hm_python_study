@@ -4,18 +4,7 @@
 
 from time import sleep
 
-
-
-
-
-
-
-
-
-
-
-
-
+print("你好")
 # 使用import导入time模块使用sleep功能（函数）
 # import time     # 导入Python内置的time模块（time.py这个代码文件）
 # print("你好")
@@ -41,6 +30,9 @@ from time import sleep
 # print("我好")
 
 from time import sleep as sl
+
 print("你好")
+print(type(sl))
+print(sl)
 sl(5)
 print("我好")
