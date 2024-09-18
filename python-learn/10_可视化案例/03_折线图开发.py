@@ -6,13 +6,13 @@ from pyecharts.charts import Line
 from pyecharts.options import TitleOpts, LabelOpts
 
 # 处理数据
-f_us = open("D:/美国.txt", "r", encoding="UTF-8")
+f_us = open("E:\Python\Code\Study\HM_Study\python-learn\data/美国.txt", "r", encoding="UTF-8")
 us_data = f_us.read()   # 美国的全部内容
 
-f_jp = open("D:/日本.txt", "r", encoding="UTF-8")
+f_jp = open("E:\Python\Code\Study\HM_Study\python-learn\data/日本.txt", "r", encoding="UTF-8")
 jp_data = f_jp.read()   # 日本的全部内容
 
-f_in = open("D:/印度.txt", "r", encoding="UTF-8")
+f_in = open("E:\Python\Code\Study\HM_Study\python-learn\data/印度.txt", "r", encoding="UTF-8")
 in_data = f_in.read()   # 印度的全部内容
 
 # 去掉不合JSON规范的开头
