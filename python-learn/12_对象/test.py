@@ -37,3 +37,18 @@ person1.gender = "男"
 person1.student.name = "YY"
 person1.student.gender = "男"
 print(person1.name, person1.gender, person1.student.name, person1.student.gender)
+
+a = 4.7 / 56000000
+b = 1.5 / 56000000
+c = a - b
+d = 3.2 / 56000000
+print(c, d, c == d)
+
+#tips:c,d在保留7位有效数字的情况下相等即可
+c_rounded = round(c, 7)
+d_rounded = round(d, 7)
+
+print(c_rounded, d_rounded, c_rounded == d_rounded)
+
+print((16/4-2**5*8/4%5//2))
+print((5%2))
