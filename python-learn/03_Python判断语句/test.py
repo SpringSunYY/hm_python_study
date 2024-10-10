@@ -15,7 +15,7 @@ import random
 #             break
 
 
-score = random.randint(50, 100)
+score = int(input())
 print(score)
 if score >= 90:
     print("优秀")
@@ -37,3 +37,16 @@ else:
 
 print(2100 / 4)
 print(2100 / 100)
+
+x = int(input())
+y = int(input())
+if x > y:
+    x, y = y, x
+elif x % 2 == 0 and y % 2 == 0:
+    x += 1
+    y += 1
+else:
+    x -= 1
+    y -= 1
+
+print(f"x:{x} y:{y}")
