@@ -17,4 +17,5 @@ print("--------------------------------------")
 res = mongodb_collection.find({
     "name": "YY"
 })
+print(res)
 print(type(res))
